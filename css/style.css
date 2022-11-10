@@ -9,8 +9,7 @@ header {
 }
 
 .contact{
-    width: 64px;
-    height: 19px;
+    
     font-size: 14px;
     margin-left: 35px;
 }
@@ -104,18 +103,25 @@ header {
 
 
 .photos{
-    width: 1029px;
+    /* width: 1029px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 241px;
-    margin-left: 35px;
+    
+    /* margin-left: 35px; */
     margin-top: 20px;
 }
 
+.photosItems1{
+    
+    margin-top:35px;
+}
 .photosItems{
     margin-left: 40px;
     margin-top:35px;
+}
+.photoimg{
+    width: 275px;
 }
 
 
@@ -123,7 +129,7 @@ header {
 .container-info{
     display: flex;
     padding-left: 40px;
-    padding-top: 120px;
+    padding-top: 40px;
     font-size: 27px;
     
 }
@@ -135,19 +141,28 @@ header {
 .container-info1{
     display: flex;
     padding-left:40px;
-    width: 260px;
-    height:83px;
+   
+    
 }
 
 .container-info1:hover{
     border: 0.5px solid blue;
 }
 
-
+.container-about{
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+.box1{
+    width: 250px;
+}
 .nav{
     display: flex;
-    padding-left: 280px;
-    padding-top: 5px;
+    margin-left: 260px;
+    padding-top: 30px;
+    justify-content: space-around;
 
 }
 
@@ -161,9 +176,10 @@ header {
 }
 
 .li{
-    width: 28px;
-    height: 19px;
+
+    
     color: #141858;
+    
 
 }
 
@@ -175,8 +191,17 @@ header {
 
 .lili{
     font-size: 24px;
-    
+
 }
+
+
+
+.lili1{
+    font-size: 27px;
+    padding-left: 100px;
+}
+
+
 
 
 
